@@ -41,4 +41,6 @@ Gemini AI (Colaboração Técnica)
 
 Este software é fornecido "como está", com foco em performance bruta. Recomenda-se a revisão do código para ambientes corporativos específicos. 
 
+Para iniciar as melhorias, e não esperar o próximo domingo, recomendo ir no “Agendador de tarefas” clicar com o botão direito na tarefa “Manutencao_Automatica_TI” e “Executar”
+
 Para colaborar/ajudar a manter as atualizações e melhoras PIX: alexoliveira.lacerda@gmail.com
