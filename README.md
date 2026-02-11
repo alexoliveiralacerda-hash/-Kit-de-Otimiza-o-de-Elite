@@ -1,0 +1,37 @@
+🚀 Manual do Usuário: Otimizador de Elite v3.0
+
+O Otimizador de Elite é uma ferramenta avançada de manutenção preventiva e corretiva para Windows, projetada para maximizar o desempenho do sistema e garantir a estabilidade do hardware através de scripts automatizados.
+🛡️ Pré-requisito Fundamental
+
+Para que todas as funções de reparo e ocultação de janelas funcionem corretamente, o programa deve ser executado como Administrador.
+1.	Clique com o botão direito no arquivo Otimizador de Elite v3.0.exe.
+2.	Selecione "Executar como administrador". (Se você compilou com a flag --uac-admin, o Windows pedirá essa permissão automaticamente ao abrir).
+________________________________________
+🕹️ Funcionalidades Principais
+
+1. Executar Otimização Agora
+Este é o módulo de manutenção imediata. Ao clicar neste botão:
+•	O que acontece: O sistema inicia uma varredura completa em busca de arquivos corrompidos e limpa caches desnecessários.
+•	Visual: A barra de progresso será ativada e o status mudará para "Otimizando...".
+•	Silêncio Total: Graças à tecnologia VBScript integrada, nenhuma janela preta ou azul do PowerShell aparecerá durante o processo.
+•	Conclusão: Ao finalizar, a barra de progresso chegará ao fim e exibirá "Otimização Concluída!".
+2. Agendar Manutenção Semanal
+Ideal para manter o computador sempre rápido sem precisar abrir o programa manualmente.
+•	Configuração: Cria uma tarefa automática no Windows para rodar todo domingo às 03:00 AM.
+•	Plano de Energia: Ativa automaticamente o plano de "Alto Desempenho" do Windows para garantir que o PC não fique lento durante tarefas pesadas.
+•	Autonomia: Uma vez agendado, você pode fechar o programa; o Windows cuidará do resto de forma invisível.
+3. Parar Processo Agora (Botão de Emergência)
+Se precisar interromper a manutenção por qualquer motivo:
+•	Ação: Encerra instantaneamente o PowerShell e qualquer sub-processo de reparo (como DISM ou SFC) que esteja rodando no fundo.
+•	Segurança: Limpa os arquivos temporários de lançamento para garantir que não fiquem rastros no sistema.
+________________________________________
+☕ Apoie o Desenvolvedor
+
+Se a ferramenta foi útil para você, considere fazer uma doação via PIX utilizando o QR Code presente na interface ou através do e-mail:
+alexoliveira.lacerda@gmail.com
+________________________________________
+⚠️ Observações Importantes
+
+•	Reinicialização: Após uma "Otimização Completa", é recomendável reiniciar o computador para que todas as correções de registro e sistema sejam aplicadas.
+•	Barra de Progresso: Se a barra parar de se mover, não se preocupe; alguns processos de reparo do Windows são pesados e podem levar alguns minutos para responder.
+
