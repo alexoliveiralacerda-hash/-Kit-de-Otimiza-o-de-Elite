@@ -51,6 +51,31 @@ O aviso do Windows significa que o programa é perigoso?
 Não. O aviso apenas indica que o programa fará alterações em configurações do sistema. 
 Como o Otimizador de Elite realiza manutenções avançadas (limpeza de cache do sistema e reparo de arquivos corrompidos), o Windows exige que o usuário autorize essas ações por segurança.
 
+1. O programa travou em "Otimizando"?
+Não. Processos de reparo como o SFC e o DISM analisam milhares de arquivos do Windows. Dependendo da velocidade do seu disco (HD ou SSD), a barra de progresso pode parecer estática por alguns minutos. Aguarde a mensagem de "Concluída".
+
+2. Posso usar o computador enquanto a otimização acontece?
+Sim, mas para melhores resultados, recomendamos fechar jogos ou programas pesados. A otimização mexe em arquivos de sistema e planos de energia, então o desempenho pode oscilar durante o processo.
+
+3. O agendamento semanal funciona com o PC desligado?
+Se o computador estiver desligado no domingo às 03:00 AM, o Windows executará a tarefa assim que você ligar o PC e ele ficar ocioso por alguns instantes.
+
+4. Como saber se a manutenção automática foi criada?
+Você pode verificar abrindo o "Agendador de Tarefas" do Windows e procurando por uma pasta ou tarefa chamada Manutencao_Automatica_TI.
+
+🛠️ Suporte Técnico
+Caso encontre algum erro inesperado ou o programa não abra, siga estes passos:
+
+Verifique o Antivírus: Alguns antivírus podem bloquear scripts de manutenção. Adicione o Otimizador de Elite v3.0.exe à lista de exclusões se necessário.
+
+Logs de Erro: Se o processo falhar, tente executar o programa via terminal para visualizar possíveis erros de permissão.
+
+Contato Direto: Se o problema persistir, envie um e-mail com o print do erro para:
+
+E-mail: alexoliveira.lacerda@gmail.com
+
+Assunto: [SUPORTE] Otimizador de Elite - Versão 3.0
+
 ________________________________________
 ☕ Apoie o Desenvolvedor
 
