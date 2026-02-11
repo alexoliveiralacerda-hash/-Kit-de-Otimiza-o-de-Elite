@@ -24,14 +24,35 @@ Ideal para manter o computador sempre rápido sem precisar abrir o programa manu
 Se precisar interromper a manutenção por qualquer motivo:
 •	Ação: Encerra instantaneamente o PowerShell e qualquer sub-processo de reparo (como DISM ou SFC) que esteja rodando no fundo.
 •	Segurança: Limpa os arquivos temporários de lançamento para garantir que não fiquem rastros no sistema.
-________________________________________
-☕ Apoie o Desenvolvedor
 
-Se a ferramenta foi útil para você, considere fazer uma doação via PIX utilizando o QR Code presente na interface ou através do e-mail:
-alexoliveira.lacerda@gmail.com
 ________________________________________
 ⚠️ Observações Importantes
 
 •	Reinicialização: Após uma "Otimização Completa", é recomendável reiniciar o computador para que todas as correções de registro e sistema sejam aplicadas.
 •	Barra de Progresso: Se a barra parar de se mover, não se preocupe; alguns processos de reparo do Windows são pesados e podem levar alguns minutos para responder.
 
+⚠️ NOTA SOBRE PRIVILÉGIOS DE SISTEMA
+
+Este software opera em nível de sistema para garantir a máxima eficácia. O aviso de elevação (UAC) é necessário para:
+Reparo de Kernel: Execução dos comandos sfc /scannow para integridade de arquivos.
+Manutenção de Imagem: Uso da ferramenta DISM para reparar a imagem do Windows.
+Gestão de Energia: Alteração de planos de desempenho através do powercfg.
+A concessão de privilégios de administrador garante que o processo ocorra de forma totalmente oculta e sem interrupções.
+
+🛡️ Por que o Windows solicita permissão de Administrador?
+
+Ao abrir o Otimizador de Elite, você verá um aviso de Controle de Conta de Usuário (UAC). 
+Fique tranquilo! Essa permissão é obrigatória para que o software possa acessar as ferramentas nativas de reparo do Windows, como o SFC e o DISM. 
+Sem isso, o otimizador não conseguiria corrigir falhas profundas no sistema ou limpar arquivos protegidos que deixam o computador lento.
+
+Formato "Pergunta & Resposta" (FAQ)❓
+
+O aviso do Windows significa que o programa é perigoso?
+Não. O aviso apenas indica que o programa fará alterações em configurações do sistema. 
+Como o Otimizador de Elite realiza manutenções avançadas (limpeza de cache do sistema e reparo de arquivos corrompidos), o Windows exige que o usuário autorize essas ações por segurança.
+
+________________________________________
+☕ Apoie o Desenvolvedor
+
+Se a ferramenta foi útil para você, considere fazer uma doação via PIX utilizando o QR Code presente na interface ou através do e-mail:
+alexoliveira.lacerda@gmail.com
