@@ -74,7 +74,7 @@ Contato Direto: Se o problema persistir, envie um e-mail com o print do erro par
 
 E-mail: alexoliveira.lacerda@gmail.com
 
-Assunto: [SUPORTE] Otimizador de Elite - Versão 3.0
+Assunto: [SUPORTE] Otimizador de Elite - Versão 3.8
 
 ________________________________________
 ☕ Apoie o Desenvolvedor
